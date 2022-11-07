@@ -23,7 +23,7 @@ def ptt_scraping(url):
             articles.append({"title":title, "href":href, "text":soup2.text})
     return articles
 
-URL = "http://ptt.cc/bbs/HatePolitics"
+URL = "https://www.ptt.cc/bbs/creditcard/index.html"
 URL = "http://ptt.cc/bbs/Gossiping"
 print(URL)
 
