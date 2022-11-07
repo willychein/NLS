@@ -24,7 +24,7 @@ def ptt_scraping(url):
     return articles
 
 URL = "https://www.ptt.cc/bbs/creditcard/index.html"
-URL = "http://ptt.cc/bbs/Gossiping"
+URL = "http://ptt.cc/bbs/biker"
 print(URL)
 
 articles = ptt_scraping(url=URL)
